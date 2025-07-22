@@ -217,14 +217,11 @@ footer {
     margin: 0.5rem 1.5rem;
     padding: 1.5rem;
     gap: 1rem;
-    
   }
 
   .features-content {
     gap: 1.5rem;
     flex-direction: column;
-
-    
   }
 
   #features h2 {
@@ -326,10 +323,10 @@ footer {
 
   footer {
     font-size: 1.2rem;
-  } 
+  }
+}
 
 @media screen and (min-width: 768px) {
-
   header h1 {
     font-size: 7rem;
   }
@@ -348,7 +345,7 @@ footer {
 
   nav {
     gap: 5rem;
-  padding: 0.5rem 3rem;
+    padding: 0.5rem 3rem;
   }
 
   #about h2 {
@@ -398,7 +395,7 @@ footer {
   footer {
     padding: 0.5rem 3.5rem;
     font-size: 1.4rem;
-  } 
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -420,7 +417,6 @@ footer {
 
   .features1 h3 {
     font-size: 5rem;
-    
   }
 
   .features1 p {
@@ -429,7 +425,6 @@ footer {
 
   .features2 h3 {
     font-size: 5rem;
-    
   }
 
   .features2 p {
@@ -446,7 +441,7 @@ footer {
 
   footer {
     font-size: 1.6rem;
-  } 
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -457,87 +452,74 @@ footer {
   }
 
   nav {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 9rem;
-  padding: 1.5rem 3rem;
-}
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    padding: 1.5rem 3rem;
+  }
 
-nav a {
-  font-size: 2rem;
-}
+  nav a {
+    font-size: 2rem;
+  }
 
   #about h2 {
     font-size: 7.5rem;
   }
 
   #about {
-  margin: 2rem 2.5rem;
+    margin: 2rem 2.5rem;
   }
 
   #features {
-  flex-direction: column;
-  margin: 2rem 2.5rem;
-  gap: 2rem;
+    flex-direction: column;
+    margin: 2rem 2.5rem;
+    gap: 2rem;
+  }
+
+  #features h2 {
+    font-size: 3rem;
+  }
+
+  .features-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .features1 h3 {
+    font-size: 4.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .features1 p {
+    font-size: 2rem;
+  }
+
+  .features2 h3 {
+    font-size: 4.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .features2 p {
+    font-size: 2rem;
+  }
+
+  .contact-content {
+    margin: 2rem 2.5rem;
+    gap: 1.5rem;
+  }
+
+  #contact h2 {
+    font-size: 3rem;
+  }
+
+  #contact p {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    padding: 0.5rem 2.5rem;
+
+    font-size: 1.5rem;
+  }
 }
-
-#features h2 {
-  font-size: 3rem;
-}
-
-.features-content {
-  display: flex;
-  flex-direction: row;
-
-}
-
-.features1 h3 {
-  font-size: 4.5rem;
-  padding: 0.5rem 1.5rem;
-}
-
-.features1 p {
-  font-size: 2rem;
-}
-
-.features2 h3 {
-  font-size: 4.5rem;
-  padding: 0.5rem 1.5rem;
-}
-
-
-.features2 p {
-  font-size: 2rem;
-}
-
-.contact-content {
-  margin: 2rem 2.5rem;
-  gap: 1.5rem;
-}
-
-#contact h2 {
-  font-size: 3rem;
-}
-
-#contact p {
-  font-size: 1.5rem;
-}
-
-footer {
-  
-  padding: 0.5rem 2.5rem;
- 
-  font-size: 1.5rem ;
-  
-}
-
-
-
-  
-
-
-
-
-}
-
