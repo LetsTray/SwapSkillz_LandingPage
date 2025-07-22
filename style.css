@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&family=Londrina+Solid:wght@100;300;400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fcfbf7;
+}
+
+header,
+footer {
+  position: sticky;
+}
+
+header {
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfbf7;
+  border: 1px Solid #fcfbf7;
+  padding: 0.5rem 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Londrina Solid", "sans-serif";
+  font-weight: 900;
+}
+
+header h1 {
+  place-content: center;
+  font-size: 5rem;
+  color: #000;
+}
+
+header h1:hover {
+  color: #ff5e33;
+}
+
+header a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 9rem;
+  padding: 0.5rem 3rem;
+  border: solid 2px #000;
+  height: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+}
+
+nav a:hover {
+  color: #ff5e33;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2.5rem;
+  gap: 1.5rem;
+}
+
+#about h2 {
+  font: 7.5rem "Londrina Solid", "sans-serif";
+  font-weight: 900;
+  color: #0039c8;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font: 2rem "Edu SA Beginner", "sans-serif";
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2.5rem;
+  gap: 2rem;
+  border: solid 2px #000;
+  padding: 2rem;
+}
+
+#features h2 {
+  font: 3rem "Edu SA Beginner", "sans-serif";
+  display: flex;
+  place-content: center;
+}
+
+.features-content {
+  display: flex;
+  flex-direction: row;
+  place-content: center space-around;
+}
+
+.features1 h3 {
+  background-color: #affb00;
+  color: #0039c8;
+  text-align: center;
+  font: 4.5rem "Londrina Solid", "sans-serif";
+  padding: 0.5rem 1.5rem;
+}
+
+.features1 p {
+  text-align: center;
+  font: 2rem "Edu SA Beginner", "sans-serif";
+}
+
+.features2 h3 {
+  background-color: #ff5e33;
+  color: #affb00;
+  text-align: center;
+  font: 4.5rem "Londrina Solid", "sans-serif";
+  padding: 0.5rem 1.5rem;
+}
+
+.features2 p {
+  text-align: center;
+  font: 2rem "Edu SA Beginner", "sans-serif";
+}
+
+#contact {
+  color: #fcfbf7;
+  background-color: black;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2.5rem;
+  gap: 1.5rem;
+}
+
+#contact h2 {
+  font: 3rem "Londrina Solid", "sans-serif";
+}
+
+#contact p {
+  font: 1.5rem "Edu SA Beginner", "sans-serif";
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 2.5rem;
+  justify-content: end;
+  align-items: center;
+  bottom: 0;
+  background-color: #000;
+  font: 1.5rem "Londrina Solid", "sans-serif";
+  color: #fcfbf7;
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 6.5rem;
+  }
+
+  nav {
+    gap: 4.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  #about h2 {
+    font-size: 4rem;
+  }
+
+  .about-content {
+    font-size: 1.6rem;
+  }
+
+  .features-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .features1 h3 {
+    font-size: 3.4rem;
+  }
+
+  .features1 p {
+    font-size: 1.6rem;
+  }
+
+  .features2 h3 {
+    font-size: 3.4rem;
+  }
+
+  .features2 p {
+    font-size: 1.6rem;
+  }
+
+  #contact p {
+    font-size: 1.4rem;
+  }
+
+  footer {
+    font-size: 1.2rem;
+  } 
+
+@media screen and (min-width: 768px) {
+
+  header h1 {
+    font-size: 7rem;
+  }
+
+  #about {
+    margin: 2rem 3.5rem;
+  }
+
+  #about h2 {
+    font-size: 5rem;
+  }
+
+  .about-content {
+    font-size: 1.8rem;
+  }
+
+  nav {
+    gap: 5rem;
+  padding: 0.5rem 3rem;
+  }
+
+  #about h2 {
+    font-size: 5.5rem;
+  }
+
+  .about-content {
+    font-size: 1.8rem;
+  }
+
+  #features {
+    margin: 2rem 3.5rem;
+  }
+
+  .features-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .features1 h3 {
+    font-size: 4rem;
+    margin: 1rem 2.8rem;
+  }
+
+  .features1 p {
+    font-size: 1.8rem;
+  }
+
+  .features2 h3 {
+    font-size: 4rem;
+    margin: 1rem 2.8rem;
+  }
+
+  .features2 p {
+    font-size: 1.8rem;
+  }
+
+  .contact-content {
+    margin: 2rem 3.5rem;
+  }
+
+  #contact p {
+    font-size: 1.6rem;
+  }
+
+  footer {
+    padding: 0.5rem 3.5rem;
+    font-size: 1.4rem;
+  } 
+}
+
+@media screen and (min-width: 992px) {
+  header h1 {
+    font-size: 7.5rem;
+  }
+
+  #about h2 {
+    font-size: 7rem;
+  }
+
+  .about-content {
+    font-size: 2rem;
+  }
+
+  #features h2 {
+    font-size: 3rem;
+  }
+
+  .features1 h3 {
+    font-size: 5rem;
+    
+  }
+
+  .features1 p {
+    font-size: 2rem;
+  }
+
+  .features2 h3 {
+    font-size: 5rem;
+    
+  }
+
+  .features2 p {
+    font-size: 2rem;
+  }
+
+  #contact h2 {
+    font-size: 3rem;
+  }
+
+  #contact p {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    font-size: 1.6rem;
+  } 
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    flex-direction: row;
+  }
+
+  #about h2 {
+    font-size: 7.5rem;
+  }
+
+  #about {
+  margin: 2rem 2.5rem;
+  }
+
+  #features {
+  flex-direction: column;
+  margin: 2rem 2.5rem;
+  gap: 2rem;
+}
+
+#features h2 {
+  font-size: 3rem;
+}
+
+.features-content {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.features1 h3 {
+  font-size: 4.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.features1 p {
+  font-size: 2rem;
+}
+
+.features2 h3 {
+  font-size: 4.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+
+.features2 p {
+  font-size: 2rem;
+}
+
+.contact-content {
+  margin: 2rem 2.5rem;
+  gap: 1.5rem;
+}
+
+#contact h2 {
+  font-size: 3rem;
+}
+
+#contact p {
+  font-size: 1.5rem;
+}
+
+footer {
+  
+  padding: 0.5rem 2.5rem;
+ 
+  font-size: 1.8rem ;
+  
+}
+
+
+
+  
+
+
+
+
+}
