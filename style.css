@@ -26,16 +26,17 @@ header {
   flex-direction: row;
   background-color: #fcfbf7;
   border: 1px Solid #fcfbf7;
-  padding: 0.5rem 2.5rem;
+  padding: 1rem 2.5rem;
   justify-content: space-between;
   align-items: center;
   font-family: "Londrina Solid", "sans-serif";
   font-weight: 900;
+  gap: 0.5rem;
 }
 
 header h1 {
   place-content: center;
-  font-size: 5rem;
+  font-size: 7rem;
   color: #000;
 }
 
@@ -53,7 +54,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 9rem;
-  padding: 0.5rem 3rem;
+  padding: 1.5rem 3rem;
   border: solid 2px #000;
   height: 3rem;
 }
@@ -71,18 +72,17 @@ nav a:hover {
 main {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
 #about {
   display: flex;
   flex-direction: column;
-  margin: 2rem 2.5rem;
+  margin: 1rem 2.5rem;
   gap: 1.5rem;
 }
 
 #about h2 {
-  font: 7.5rem "Londrina Solid", "sans-serif";
+  font: 7rem "Londrina Solid", "sans-serif";
   font-weight: 900;
   color: #0039c8;
 }
@@ -90,14 +90,14 @@ main {
 .about-content {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  font: 2rem "Edu SA Beginner", "sans-serif";
+  gap: 1.2rem;
+  font: 1.8rem "Edu SA Beginner", "sans-serif";
 }
 
 #features {
   display: flex;
   flex-direction: column;
-  margin: 2rem 2.5rem;
+  margin: 1rem 2.5rem;
   gap: 2rem;
   border: solid 2px #000;
   padding: 2rem;
@@ -125,7 +125,8 @@ main {
 
 .features1 p {
   text-align: center;
-  font: 2rem "Edu SA Beginner", "sans-serif";
+  margin-top: 1rem;
+  font: 1.8rem "Edu SA Beginner", "sans-serif";
 }
 
 .features2 h3 {
@@ -138,10 +139,12 @@ main {
 
 .features2 p {
   text-align: center;
-  font: 2rem "Edu SA Beginner", "sans-serif";
+  margin-top: 1rem;
+  font: 1.8rem "Edu SA Beginner", "sans-serif";
 }
 
 #contact {
+  margin-top: 2rem;
   color: #fcfbf7;
   background-color: black;
 }
@@ -158,7 +161,7 @@ main {
 }
 
 #contact p {
-  font: 1.5rem "Edu SA Beginner", "sans-serif";
+  font: 1.4rem "Edu SA Beginner", "sans-serif";
 }
 
 footer {
@@ -169,8 +172,106 @@ footer {
   align-items: center;
   bottom: 0;
   background-color: #000;
-  font: 1.5rem "Londrina Solid", "sans-serif";
+  font: 1.4rem "Londrina Solid", "sans-serif";
   color: #fcfbf7;
+}
+
+@media screen and (min-width: 360px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2.5rem;
+    place-contact: center;
+  }
+
+  header h1 {
+    font-size: 4.6rem;
+  }
+
+  nav {
+    display: flex;
+    gap: 1.2rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  nav a {
+    font-size: 1.3rem;
+  }
+
+  #about {
+    margin: 1rem 1.5rem;
+    gap: 0.5rem;
+  }
+
+  #about h2 {
+    font-size: 2.4rem;
+  }
+
+  .about-content {
+    display: flex;
+    font-size: 1rem;
+    gap: 0.5rem;
+  }
+
+  #features {
+    margin: 0.5rem 1.5rem;
+    padding: 1.5rem;
+    gap: 1rem;
+    
+  }
+
+  .features-content {
+    gap: 1.5rem;
+    flex-direction: column;
+
+    
+  }
+
+  #features h2 {
+    font-size: 2.1rem;
+  }
+
+  .features1 h3 {
+    padding: 0.5rem 0.5rem;
+    font-size: 2rem;
+  }
+
+  .features1 p {
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+  }
+
+  .features2 h3 {
+    padding: 0.5rem 0.5rem;
+    font-size: 2rem;
+  }
+
+  .features2 p {
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+  }
+
+  #contact {
+    margin-top: 1rem;
+  }
+
+  #contact h2 {
+    font-size: 2.1rem;
+  }
+
+  #contact p {
+    font-size: 0.8rem;
+  }
+
+  .contact-content {
+    gap: 0.8rem;
+    margin: 1rem 1.5rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.5rem;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -425,3 +526,4 @@ footer {
 
 
 }
+
